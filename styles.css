@@ -1,0 +1,121 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body {
+    background-color: #80DEEA;
+    color:steelblue;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+.container h1 {
+    text-align: center;
+    margin-bottom: 35px;
+    font-weight: 400;
+}
+
+.container a {
+    text-decoration: none;
+    color:#0097A7;
+    font-weight: 600;
+}
+
+.progress{
+    background-color:lightgray;
+    height: 5px;
+    border: 1px lightslategray solid;
+    border-radius: 100vh;
+}
+
+.bar{
+    /* background-color: red; */
+    height: 5px;
+    /* width: 0%; */
+    transition: background-color 0.4s, width 1s;
+    border-radius: 100vh;
+}
+
+ul{
+    margin: 10px;
+    color: red;
+    font-weight:600;
+    transition: color 0.5s;
+}
+
+.green{
+    color:rgb(0, 196, 0);
+}
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background:#80DEEA;
+    padding: 10px;
+    font-family: inherit;
+    font-size: 16px;
+    color: #0097A7;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .5px;
+    border: 0;
+    border-radius: 5px;
+}
+.btn:disabled{
+    background-color: powderblue;
+    color: lightskyblue;
+    cursor: not-allowed;
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.text {
+    margin-top: 30px;
+}
+
+.hide{
+    display: grid;
+    grid-template-columns: 1fr 10fr;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    /* width: 300px; */
+}
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #0097A7 solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 16px;
+}
+
+.form-control input:focus, 
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: #B2EBF2;
+}
