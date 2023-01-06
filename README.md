@@ -1,6 +1,5 @@
 ## Password-Strength-Checker
-A good password should contain:
----------------
+#### A good password should contain:
 - Lowercase & Uppercase letters
 - Number (0-9)
 - Special Character (!@#$%^&*)
