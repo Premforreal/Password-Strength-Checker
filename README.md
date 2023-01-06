@@ -1,7 +1,8 @@
 # Password-Strength-Checker
 Check how strong and secure your password is: <br>
-https://premforreal.github.io/Password-Strength-Checker/
-##Passwords should contain:##
+https://premforreal.github.io/Password-Strength-Checker/ <br>
+Passwords should contain:
+---------------
 - Lowercase & Uppercase letters
 - Number (0-9)
 - Special Character (!@#$%^&*)
