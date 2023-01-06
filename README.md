@@ -1,5 +1,5 @@
-# Password-Strength-Checker
-Passwords should contain:
+## Password-Strength-Checker
+A good password should contain:
 ---------------
 - Lowercase & Uppercase letters
 - Number (0-9)
